@@ -1,0 +1,68 @@
+@media (min-width: 990px) and (max-width: 1199px){
+
+    .wrapper{
+        max-width: 960px;
+    }
+}
+
+//tablet
+
+@media (max-width: 989px) and (min-width:768px){
+body{
+
+    .wrapper{
+        max-width: 95%;
+    }
+    
+    header{
+
+
+
+        #main-header{
+
+            .btn-menu{
+                margin-top: 15px;
+                display: block;
+            }
+
+
+            .contacts-wrapp{
+                display: none;
+            }
+
+            .btn-wrapp{
+                
+            }
+
+
+        }
+
+        #header-menu{
+            display: none;
+        }
+    }
+
+    main{
+        margin-top: 58px;
+
+
+        #news{
+            .news-main{
+                flex-wrap: wrap;
+                .news-item{
+                    width: 45%;
+                    margin-bottom: 1rem;
+                }
+            }
+        }
+    }
+
+    footer{
+        padding-top: 1.5rem;
+        .footer-wrapp{
+            display: none;
+        }
+    }
+}
+   
+}

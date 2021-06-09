@@ -1,0 +1,27 @@
+#mobile-menu{
+    max-width: 320px;
+    position: absolute;
+    top: 0;
+    z-index: 120;
+    max-height: 100vh;
+    box-shadow: 0 4px 15px 1px rgb(0 0 0 / 10%);
+    left: 0;
+    transition: left .5s ease-in-out;
+    overflow: auto;
+    background: #ffffff;
+    padding: 70px 0px;
+}
+
+.mobile-nav{
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-link{
+    padding: 15px 50px 15px 50px;
+    font-size: 18px;
+    width: calc(100% - 60px);
+    font-weight: 600;
+    color: #111;
+    text-decoration: none;
+}

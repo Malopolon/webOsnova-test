@@ -1,0 +1,76 @@
+main{
+
+    #slider{
+
+        .slider-item{
+            .slide-text{
+                left: 50px;
+                bottom: 80px;
+                position: absolute;
+                color: #FFFFFF;
+                z-index: 1;
+                text-transform: uppercase;
+                letter-spacing: 3px;
+                text-shadow: black 0px 2px 3px;
+            }
+        }
+
+        width: 100%;
+
+        .owl-dots{
+            position: absolute;
+            bottom: 30px;
+            width: 100%;
+            margin: 0;
+
+
+            .owl-dot{
+
+                span{
+                    border: 1px solid #D6D6D6;
+                    
+                }
+
+                span:hover{
+                    background-color: transparent;
+                }
+                .active {
+                    background-color: transparent; 
+                }    
+                
+            }
+            
+        }
+        
+        .owl-nav {
+            margin: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -35px);
+            width: 100%;
+
+                
+                button{
+
+                    
+                    position: absolute;
+                    border-radius: 50%;
+                    opacity: 0;
+                    outline: none;
+
+                        span {
+                            display: inline-block;
+                            width: 50px;
+                            height: 50px;
+                            line-height: 55px;
+                            font-size: 50px;
+                        }
+                        
+                }
+        }
+
+    } 
+
+}
+

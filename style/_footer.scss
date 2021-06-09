@@ -1,0 +1,161 @@
+
+footer{
+    position: absolute;
+    background: #222;
+    width: 100%;
+        .footer-wrapp{
+            border-bottom: 1px solid #3c3c3c;
+            padding-bottom: 1.5rem;
+            padding-top: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .footer-nav{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 100%;
+
+
+                .footer-item{
+                    width: 23%;
+                    h4{
+                       a{
+                           color: white;
+                           text-decoration: none; 
+                           font-size: 12px; 
+                           text-transform: uppercase;
+                       } 
+                       a:hover{
+                           text-decoration: underline;
+                       }
+                    }
+
+                    ul{
+                        padding-left: 0;
+
+                        li{
+                            margin-bottom: .5rem;
+                            a{
+                                color: #aaa;
+                                text-decoration: none;
+                                font-size: 14px;
+                            }
+
+                            a:hover{
+                                text-decoration: underline;
+                            }
+                        }
+                    }
+                }
+        }
+
+
+        .footer-info{
+
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: start;
+            justify-items: center;
+            align-items: baseline;
+            padding-bottom: 1.5rem;
+
+                div{
+                    ul{
+                        padding-left: 0;
+
+                        li{
+
+                            
+                            .tell{
+                                font-size: 24px;
+                                color: white;
+                                font-weight: 600;
+                                text-decoration: none;
+                            }
+
+                            .email{
+                                color: #aaaaaa;
+                                text-decoration: none;
+                                font-size: 14px;
+                            }
+                            
+                        }
+
+                        
+                    }
+                }
+                .footer-contacts{
+                    flex: 0 0 45%;
+                }
+                .footer-social{ 
+
+                    flex: 0 0 20%;
+
+                    ul{
+
+                    display: flex;
+                    justify-content: center;
+        
+                    li {
+                        margin-left: 25px;
+                        a { 
+                            font-size: 18px;
+                            color: white;
+                        }
+
+                        a:hover{
+                            color: #aaa;
+                        }
+                    }
+                }
+                   
+                } 
+
+                .footer-btn{
+                    text-align: center;
+                    flex: 0 0 35%;
+                    padding-left: 20px;
+                    .btn {
+                        flex: 0 0 25%;
+                        padding: 11px 24px 11px 24px;
+                        min-width: 170px;
+                        transition: background-color .3s ease;
+                        background-color: #ffc600;
+                        text-decoration: none;
+                        font-weight: 600;
+                        font-size: 12px;
+                        color: #111;
+                        text-align: center;
+                        text-transform: uppercase;
+                        border-radius: 50px;
+                        border: 1px solid #ffc600;
+                    }
+        
+                    .btn:hover {
+                        border-color: white;
+                        background-color: white;
+                        
+                    }
+                }
+
+                .copyright{
+                    color: #aaa;
+                    font-size: 12px;
+                    margin-top: 1rem;
+                    p{
+                        a{
+                            text-decoration: none;
+                            color: #aaa;
+                        }
+                        a:hover{
+                            text-decoration: underline;
+                        }
+                    }
+                }
+
+
+        }
+}

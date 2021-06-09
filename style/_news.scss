@@ -1,0 +1,39 @@
+section#news {
+    margin: 1.5rem 0;
+
+        .news-main{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin-top: 1.5rem;
+                .news-item{
+                    width: 32%;
+                    text-align: center;
+                }
+
+                a{
+                    img{
+                        width: 100%;
+                    }
+                }
+
+                h4{ 
+                    text-align: left;
+                    a{
+                        text-decoration: none;
+                        color: black;
+                        font-weight: 600;
+                        font-size: 20px;
+                    }
+                    a:hover{
+                        text-decoration: underline;
+                    }
+                }
+                .news-date{
+                    text-align: left;
+                }
+                .news-content{
+                    text-align: left;
+                }
+        }
+}

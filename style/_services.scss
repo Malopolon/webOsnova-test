@@ -1,0 +1,118 @@
+#services{
+    margin-top: 1.5rem;
+}
+
+
+.main-services {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 0 0 50%;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+
+        div{
+            box-sizing: border-box;
+            width: 48%;
+            height: 300px;
+            padding: 10px 10px 10px 4%;
+            margin-bottom: 1.5rem;
+
+            h4 a{
+                font-weight: 600;
+                font-size: 18px;
+                text-transform: uppercase;
+                color: #FFFFFF;
+                text-decoration: none;
+
+                       
+            }
+
+            a:hover{
+                text-decoration:underline 
+            }
+
+            p{
+                color: #e2e3e5;
+            }
+
+            ul{
+                margin: 0;
+                padding: 0;
+                list-style: none;
+
+                li {
+                    padding: 0 0 10px 0;
+                    line-height: 120%;
+                
+                    a {
+                    color: #ffc600;
+                    font-size: 16px;
+                    position: relative;
+                    text-decoration: none;
+                    z-index: 100;
+                    }
+                }
+
+            }   
+            
+        }
+
+
+        .prot-mesh {
+            background: linear-gradient((rgba(0, 0, 0, 0.65)))  , url(../img/services/prot-meshjpg);
+            background-position:center, center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            padding-right: 25px;
+        }
+        .finishing-works {
+                    background: linear-gradient((rgba(0, 0, 0, 0.65)))  , url(../img/services/Belaya-gostinaya-2jpg);
+                    background-position:center, center;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+        }
+
+        .repair {
+            background: linear-gradient((rgba(0, 0, 0, 0.65)))  , url(../img/services/ustanovka-btpng);
+            background-position:center, center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .cars{
+            background: linear-gradient((rgba(0, 0, 0, 0.65)))  , url(../img/services/cars);
+            background-position:center, center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .tourist{
+            background: linear-gradient((rgba(0, 0, 0, 0.65)))  , url(../img/services/turisticheskiye-uslugijpg);
+            background-position:center, center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .health {
+            background: linear-gradient((rgba(0, 0, 0, 0.65)))  , url(../img/services/krasota);
+            background-position:center, center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .farming {
+            background: linear-gradient((rgba(0, 0, 0, 0.65)))  , url(../img/services/farming);
+            background-position:center, center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .buhgalteriya {
+            background: linear-gradient((rgba(0, 0, 0, 0.65)))  , url(../img/services/buhgalteriya);
+            background-position:center, center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        
+}

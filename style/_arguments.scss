@@ -1,0 +1,23 @@
+section#arguments{
+    margin: 3rem 0 ;
+    border-bottom: 1px solid #e7e7e7;
+    .arguments-main{
+        margin-top: 2rem;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-wrap: wrap;
+
+        .arguments-item{
+            width: 25%;
+            text-align: center;
+            font-size: 18px;
+            margin: 1.5rem 0;
+
+            div {
+                margin: 1rem auto;
+                width: 90%;
+            }
+        }
+    }
+}
